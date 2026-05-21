@@ -1,7 +1,7 @@
 {
   "name": "aimesig-relay-server",
-  "version": "1.0.0",
-  "description": "Aimesig internet relay server",
+  "version": "3.0.0",
+  "description": "Aimesig internet relay server with MongoDB Atlas profile pictures",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "cors": "^2.8.6",
+    "mongodb": "^6.5.0",
     "socket.io": "^4.7.5"
   },
   "devDependencies": {
