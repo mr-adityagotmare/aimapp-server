@@ -40,7 +40,7 @@ async function connectMongo() {
 
     console.log('[Mongo] connected to Atlas');
   } catch (err) {
-    console.error('[Mongo] connection failed:', err.message);
+    console.error('[Mongo] FULL ERROR:', err);
   }
 }
 
