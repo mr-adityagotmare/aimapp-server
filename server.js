@@ -21,7 +21,8 @@ const PEER_TIMEOUT = 60000;       // 60s
 // The database "aimesig" and collection "profile_pictures" are created
 // automatically on first write.
 
-const MONGO_URI = process.env.MONGODB_URI || '';
+const MONGO_URI =
+  'mongodb+srv://aimappadmin:StrongPassword123@aimapp-cluster.7rymq5m.mongodb.net/aimesig?retryWrites=true&w=majority&appName=aimapp-cluster';
 let profilePicturesCollection = null;
 
 async function connectMongo() {
